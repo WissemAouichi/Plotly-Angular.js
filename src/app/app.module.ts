@@ -6,7 +6,7 @@ import * as PlotlyJS from 'plotly.js/dist/plotly.js';
 import { PlotlyModule } from 'angular-plotly.js';
 import { PlotlyExComponent } from './plotly/plotly.component';
 import { PlotlyPieComponent } from './plotly/plotly-pie/plotly-pie.component';
-import { PlotlyMapComponent } from './plotly/plotly-map/plotly-map.component';
+import { PlotlyDateComponent } from './plotly/plotly-date/plotly-date.component';
 
 PlotlyModule.plotlyjs = PlotlyJS;
 
@@ -15,7 +15,7 @@ PlotlyModule.plotlyjs = PlotlyJS;
     AppComponent,
     PlotlyExComponent,
     PlotlyPieComponent,
-    PlotlyMapComponent
+    PlotlyDateComponent
   ],
   imports: [
     BrowserModule,PlotlyModule
