@@ -14,4 +14,3 @@ export class PlotlyExComponent {
         layout: {width: "100%", height: "150rem", title: 'Scatter plot'}
     };
 }
-
