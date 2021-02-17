@@ -9,10 +9,14 @@ export class PlotlyPieComponent {
     public graph = {
         data: [
             {
-                values: [19, 26, 55],
-                labels: ['Residential', 'Non-Residential', 'Utility'],
-                type: 'pie'
+                type: "pie",
+  values: [2, 3, 4, 4],
+  labels: ["Wages", "Operating expenses", "Cost of sales", "Insurance"],
+  textinfo: "label+percent",
+  textposition: "outside",
+  automargin: true
               }],
-        layout: {width: "100%", height: "150rem", title: 'Pie plot'}
+        layout: {width: "100%", height: "170rem", title: 'Pie plot',margin: {"t": 40, "b": 0, "l": 0, "r": 0},
+        showlegend: false}
     };
 }
