@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ElementRef, ViewChild } from "@angular/core";
 
 @Component({
     selector: 'plotly-graph',
@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
 })
 
 export class PlotlyGraphComponent {
-    
+    @ViewChild("Graph", { static: true })
+private Graph: ElementRef; 
+}
 }
