@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OCCUPANCY_DATA } from '../data/sample-data';
+
 
 @Component({
     selector: 'plotly-date',
@@ -7,7 +7,7 @@ import { OCCUPANCY_DATA } from '../data/sample-data';
 })
 
 export class PlotlyDateComponent {
-    date:any[]=OCCUPANCY_DATA
+
     public graph = {
         data: [
             {

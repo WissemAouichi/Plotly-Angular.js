@@ -8,6 +8,7 @@ import { PlotlyExComponent } from './plotly/plotly.component';
 import { PlotlyPieComponent } from './plotly/plotly-pie/plotly-pie.component';
 import { PlotlyDateComponent } from './plotly/plotly-date/plotly-date.component';
 
+
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -16,6 +17,7 @@ PlotlyModule.plotlyjs = PlotlyJS;
     PlotlyExComponent,
     PlotlyPieComponent,
     PlotlyDateComponent
+
   ],
   imports: [
     BrowserModule,PlotlyModule
