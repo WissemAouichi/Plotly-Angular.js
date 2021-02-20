@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from "@angular/core";
-import * as Plotly from "plotly.js";
 
 @Component({
     selector:'plotly-graph',
